@@ -1,3 +1,6 @@
+![alt text](img/readme.png)
+![alt text](img/readme2.png)
+
 # AI Resume Analyzer Dashboard
 
 A React dashboard that analyzes resumes against job descriptions using AI to provide:
