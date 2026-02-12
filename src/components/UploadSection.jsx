@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Upload, FileText, Briefcase, File } from 'lucide-react';
+import { API_URL } from '../config';
 import './UploadSection.css';
 
 function UploadSection({ onAnalyze, isAnalyzing }) {
@@ -30,7 +31,7 @@ function UploadSection({ onAnalyze, isAnalyzing }) {
 
     try {
       const endpoint = type === 'resume' ? '/api/upload-resume' : '/api/upload-job';
-      const response = await fetch(`http://localhost:3001${endpoint}`, {
+      const response = await fetch(`${API_URL}${endpoint}`, {
         method: 'POST',
         body: formData,
       });

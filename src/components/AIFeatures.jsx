@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FileText, MessageSquare, Sparkles, Loader } from 'lucide-react';
+import { API_URL } from '../config';
 import './AIFeatures.css';
 
 function AIFeatures({ resume, jobDescription }) {
@@ -11,7 +12,7 @@ function AIFeatures({ resume, jobDescription }) {
   const generateCoverLetter = async () => {
     setLoading(prev => ({ ...prev, coverLetter: true }));
     try {
-      const response = await fetch('http://localhost:3001/api/generate-cover-letter', {
+      const response = await fetch(`${API_URL}/api/generate-cover-letter`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ resume, jobDescription, companyName }),
@@ -32,7 +33,7 @@ function AIFeatures({ resume, jobDescription }) {
   const generateInterviewQuestions = async () => {
     setLoading(prev => ({ ...prev, interview: true }));
     try {
-      const response = await fetch('http://localhost:3001/api/generate-interview-questions', {
+      const response = await fetch(`${API_URL}/api/generate-interview-questions`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ resume, jobDescription }),

@@ -3,6 +3,7 @@ import Dashboard from './components/Dashboard';
 import UploadSection from './components/UploadSection';
 import LoadingSpinner from './components/LoadingSpinner';
 import AIFeatures from './components/AIFeatures';
+import { API_URL } from './config';
 import './App.css';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
     setCurrentJobDesc(jobDescription);
     
     try {
-      const response = await fetch('http://localhost:3001/api/analyze', {
+      const response = await fetch(`${API_URL}/api/analyze`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
