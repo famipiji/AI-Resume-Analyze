@@ -1,0 +1,32 @@
+.insights-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.insights-list li {
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  font-size: 14px;
+  line-height: 1.5;
+  transition: background 0.2s;
+}
+
+.insights-list li:hover {
+  background: #e9ecef;
+}
+
+.insights-card.strength .insights-list li {
+  border-left-color: #10b981;
+}
+
+.insights-card.weakness .insights-list li {
+  border-left-color: #ef4444;
+}
+
+.insights-card.suggestion .insights-list li {
+  border-left-color: #f59e0b;
+}

@@ -1,0 +1,37 @@
+JOHN DOE
+Senior Software Engineer
+john.doe@email.com | (555) 123-4567 | linkedin.com/in/johndoe
+
+PROFESSIONAL SUMMARY
+Results-driven Senior Software Engineer with 7+ years of experience building scalable web applications. 
+Expertise in React, JavaScript, and modern frontend technologies. Led teams of 5+ developers and 
+improved application performance by 45%.
+
+EXPERIENCE
+
+Senior Frontend Developer | Tech Corp | 2020 - Present
+- Led development of customer-facing dashboard using React and TypeScript, serving 100K+ users
+- Improved page load time by 40% through code optimization and lazy loading
+- Mentored 5 junior developers and conducted code reviews
+- Implemented CI/CD pipeline reducing deployment time by 60%
+
+Frontend Developer | StartupXYZ | 2018 - 2020
+- Built responsive web applications using React, Redux, and REST APIs
+- Collaborated with UX team to implement pixel-perfect designs
+- Increased test coverage from 30% to 85% using Jest and React Testing Library
+- Participated in Agile ceremonies and sprint planning
+
+Junior Developer | WebSolutions Inc | 2017 - 2018
+- Developed features for e-commerce platform using JavaScript and HTML/CSS
+- Fixed bugs and improved code quality
+- Worked with Git for version control
+
+EDUCATION
+Bachelor of Science in Computer Science
+State University | 2013 - 2017
+
+SKILLS
+Languages: JavaScript, HTML, CSS, Python
+Frameworks: React, Node.js, Express, Redux
+Tools: Git, Webpack, Jest, npm
+Methodologies: Agile, Scrum, Test-Driven Development

@@ -1,0 +1,43 @@
+.keyword-section {
+  margin-bottom: 20px;
+}
+
+.keyword-section:last-child {
+  margin-bottom: 0;
+}
+
+.keyword-section h4 {
+  font-size: 1rem;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.keyword-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.keyword-tag {
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+
+.keyword-tag:hover {
+  transform: scale(1.05);
+}
+
+.keyword-tag.matched {
+  background: #d1fae5;
+  color: #065f46;
+  border: 1px solid #10b981;
+}
+
+.keyword-tag.missing {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #ef4444;
+}
